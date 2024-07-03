@@ -1,234 +1,275 @@
-import * as React from "react";
-
-function MyComponent() {
-  return (
-    <div className="flex flex-col">
-      <div className="flex gap-5 justify-between pr-12 w-full text-2xl font-bold text-center text-black bg-white shadow-xl max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-        <img
-          loading="lazy"
-          srcSet="..."
-          className="aspect-[4.35] w-[321px]"
-        />
-        <div className="flex gap-5 justify-between my-auto max-md:flex-wrap">
-          <div className="justify-center px-3.5 py-2 whitespace-nowrap rounded-3xl bg-zinc-300">
-            About
-          </div>
-          <div className="justify-center px-6 py-2 whitespace-nowrap rounded-3xl bg-zinc-300 max-md:px-5">
-            Field
-          </div>
-          <div className="justify-center px-2 py-2 whitespace-nowrap rounded-3xl bg-zinc-300">
-            Contact
-          </div>
-          <div className="justify-center px-1.5 py-2 rounded-3xl bg-zinc-300">
-            About me
-          </div>
-        </div>
+<div class="flex flex-col">
+  <div
+    class="flex gap-5 justify-between pr-12 w-full text-2xl font-bold text-center text-black bg-white shadow-xl max-md:flex-wrap max-md:pr-5 max-md:max-w-full"
+  >
+    <img
+      loading="lazy"
+      srcset="..."
+      class="aspect-[4.35] w-[321px]"
+    />
+    <div class="flex gap-5 justify-between my-auto max-md:flex-wrap">
+      <div
+        class="justify-center px-3.5 py-2 whitespace-nowrap rounded-3xl bg-zinc-300"
+      >
+        About
       </div>
-      <div className="flex overflow-hidden relative flex-col px-8 py-20 w-full text-6xl font-extrabold min-h-[648px] max-md:px-5 max-md:max-w-full max-md:text-4xl">
-        <img
-          loading="lazy"
-          srcSet="..."
-          className="object-cover absolute inset-0 size-full"
-        />
-        <div className="relative mt-32 bg-clip-text max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-          Mengenal Lebih <br />
-          Jauh Mengenai <br />
-          MBC Laboratory.
-        </div>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e99a5a1a3de6b339a9302a4d6fe10c899abf5340e349c1c23bac25cf8db4d14f?"
-          className="self-end mt-16 aspect-square w-[66px] max-md:mt-10"
-        />
+      <div
+        class="justify-center px-6 py-2 whitespace-nowrap rounded-3xl bg-zinc-300 max-md:px-5"
+      >
+        Field
       </div>
-      <div className="flex flex-col px-14 py-20 w-full max-md:px-5 max-md:max-w-full">
-        <div className="justify-center self-start p-5 mt-12 text-5xl font-extrabold text-blue-900 whitespace-nowrap bg-white rounded-3xl max-md:mt-10 max-md:text-4xl">
-          About
-        </div>
-        <div className="mt-12 mb-9 text-4xl font-semibold text-white max-md:mt-10 max-md:max-w-full">
-          MBC Lab Merupakan Laboratorium Aplikasi Multimedia, Big Data dan
-          Keamanan Siber yang berlokasi di Fakultas Teknik Elektro Universitas
-          Telkom dan beroperasi di bawah Kelompok Keahlian Jaringan, Sibernetika
-          dan Manajemen Rekayasa (NCM), merupakan fasilitas penelitian khusus
-          dengan fokus multi-segi.
-        </div>
+      <div
+        class="justify-center px-2 py-2 whitespace-nowrap rounded-3xl bg-zinc-300"
+      >
+        Contact
       </div>
-      <div className="flex z-10 flex-col px-14 pt-20 pb-3.5 w-full bg-white max-md:px-5 max-md:max-w-full">
-        <div className="justify-center self-center px-5 py-5 text-5xl font-extrabold text-white rounded-3xl max-md:pr-5 max-md:max-w-full max-md:text-4xl">
-          Research Field
-        </div>
-        <div className="mt-9 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10">
-                <div className="flex flex-col items-center px-2.5 py-6 bg-white rounded-3xl">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b863de59a496b2cc8a03d1c2b16f2b69407cbfd42e69a365a577af0f8da9ee32?"
-                    className="aspect-square w-[58px]"
-                  />
-                  <div className="mt-7 text-2xl">GAMETECH</div>
-                  <div className="self-stretch mt-5 text-lg text-center">
-                    Divisi Gametech (Game Technology) berfokus pada pengembangan
-                    teknologi game. Divisi ini terbagi menjadi 3 tim yaitu:
-                    programmer, asset design dan sound design. Selain melakukan
-                    riset, divisi Gametech juga aktif mengikuti berbagai
-                    perlombaan seperti PUSPITEK MOGRAPH dan GEMASTIK
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10">
-                <div className="flex flex-col items-center px-3.5 pt-5 pb-12 bg-white rounded-3xl">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac5f286cef50bc2dcf7f041f3fb350277c923f29a567344dde2f13934db8d8ae?"
-                    className="aspect-square w-[58px]"
-                  />
-                  <div className="mt-7 text-2xl">GIS</div>
-                  <div className="self-stretch mt-5 text-lg text-center">
-                    Divisi GIS (Geographic Information System) berfokus pada
-                    pengembangan teknologi aplikasi mobile dan UI/UX, 3d
-                    modelling dan augmented reality (AR) dan remote sensing.
-                    Selain itu divisi GIS juga rutin melaksanakan pengabdian
-                    masyarakat setiap tahunnya.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10">
-                <div className="flex flex-col items-center px-3 pt-5 pb-8 bg-white rounded-3xl">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/d653209685107e81d753ef7cb75482f295e1937b2640c2102604eba9723a48fa?"
-                    className="aspect-square w-[58px]"
-                  />
-                  <div className="mt-7 text-2xl">BIG DATA</div>
-                  <div className="self-stretch mt-4 text-lg text-center">
-                    Divisi Big Data berfokus pada bidang data analyst, data
-                    engineer, data scientist dan pengembangan machine learning.
-                    Kegiatan yang dilakukan oleh divisi Big Data antara lain
-                    meriset serta menganalisis berbagai data dan mengikuti
-                    berbagai perlombaan seperti Hackathon.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10">
-                <div className="flex flex-col px-2.5 pt-5 pb-16 bg-white rounded-3xl">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4307462c00fd5753117ca65480b6e66be000e397691082c9170c074561eabc3?"
-                    className="self-center aspect-square fill-black w-[58px]"
-                  />
-                  <div className="mt-7 text-2xl">CYBER SECURITY</div>
-                  <div className="mt-5 text-lg text-center">
-                    Divisi Cyber Security berfokus pada pengembangan keamanan
-                    siber dan Dev ops. Divisi ini terbagi menjadi 3 tim yaitu:
-                    Blue Team, Red Team dan Cloud Team. Divisi ini juga
-                    mengikuti berbagai perlombaan seperti CTF dan GEMASTIK
-                  </div>
-                </div>
+      <div class="justify-center px-1.5 py-2 rounded-3xl bg-zinc-300">
+        About me
+      </div>
+    </div>
+  </div>
+  <div
+    class="flex overflow-hidden relative flex-col px-8 py-20 w-full text-6xl font-extrabold min-h-[648px] max-md:px-5 max-md:max-w-full max-md:text-4xl"
+  >
+    <img
+      loading="lazy"
+      srcset="..."
+      class="object-cover absolute inset-0 size-full"
+    />
+    <div
+      class="relative mt-32 bg-clip-text max-md:mt-10 max-md:max-w-full max-md:text-4xl"
+    >
+      Mengenal Lebih
+      <br />
+      Jauh Mengenai
+      <br />
+      MBC Laboratory.
+    </div>
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/e99a5a1a3de6b339a9302a4d6fe10c899abf5340e349c1c23bac25cf8db4d14f?"
+      class="self-end mt-16 aspect-square w-[66px] max-md:mt-10"
+    />
+  </div>
+  <div class="flex flex-col px-14 py-20 w-full max-md:px-5 max-md:max-w-full">
+    <div
+      class="justify-center self-start p-5 mt-12 text-5xl font-extrabold text-blue-900 whitespace-nowrap bg-white rounded-3xl max-md:mt-10 max-md:text-4xl"
+    >
+      About
+    </div>
+    <div
+      class="mt-12 mb-9 text-4xl font-semibold text-white max-md:mt-10 max-md:max-w-full"
+    >
+      MBC Lab Merupakan Laboratorium Aplikasi Multimedia, Big Data dan Keamanan
+      Siber yang berlokasi di Fakultas Teknik Elektro Universitas Telkom dan
+      beroperasi di bawah Kelompok Keahlian Jaringan, Sibernetika dan Manajemen
+      Rekayasa (NCM), merupakan fasilitas penelitian khusus dengan fokus
+      multi-segi.
+    </div>
+  </div>
+  <div
+    class="flex z-10 flex-col px-14 pt-20 pb-3.5 w-full bg-white max-md:px-5 max-md:max-w-full"
+  >
+    <div
+      class="justify-center self-center px-5 py-5 text-5xl font-extrabold text-white rounded-3xl max-md:pr-5 max-md:max-w-full max-md:text-4xl"
+    >
+      Research Field
+    </div>
+    <div class="mt-9 max-md:max-w-full">
+      <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+        <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+          <div
+            class="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10"
+          >
+            <div
+              class="flex flex-col items-center px-2.5 py-6 bg-white rounded-3xl"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b863de59a496b2cc8a03d1c2b16f2b69407cbfd42e69a365a577af0f8da9ee32?"
+                class="aspect-square w-[58px]"
+              />
+              <div class="mt-7 text-2xl">GAMETECH</div>
+              <div class="self-stretch mt-5 text-lg text-center">
+                Divisi Gametech (Game Technology) berfokus pada pengembangan
+                teknologi game. Divisi ini terbagi menjadi 3 tim yaitu:
+                programmer, asset design dan sound design. Selain melakukan
+                riset, divisi Gametech juga aktif mengikuti berbagai perlombaan
+                seperti PUSPITEK MOGRAPH dan GEMASTIK
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col px-16 py-20 w-full font-semibold bg-white max-md:px-5 max-md:max-w-full">
-        <div className="mt-14 text-6xl font-extrabold bg-clip-text max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-          For More Informations
-        </div>
-        <div className="flex gap-5 justify-between items-start mt-48 text-xl text-white max-md:flex-wrap max-md:mt-10">
-          <div className="flex gap-4 mt-1.5">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0bf22a50c1394d1aac65bd032c5e79ac154d53ce63ecd51077311878e5ff8b12?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto">
-              Jl. Telekomunikasi Jl. Terusan Buah Batu, Bandung, Jawa Barat
-              40257, ID
-            </div>
-          </div>
-          <div className="flex gap-4 text-2xl whitespace-nowrap">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5c70216f318082033c49072877b7a1788ba84b31d0382a2d9d04e5e9c2fa8f87?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto my-auto">@mbclab</div>
-          </div>
-          <div className="flex gap-4 max-md:flex-wrap">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/76afb6897d0870e04ddc57b242ea0110bc3e39878b07093d81ba33a2f83cd6a9?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto my-auto">
-              Multimedia Application, Big Data and Cybersecurity Laboratory
+        <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+          <div
+            class="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10"
+          >
+            <div
+              class="flex flex-col items-center px-3.5 pt-5 pb-12 bg-white rounded-3xl"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac5f286cef50bc2dcf7f041f3fb350277c923f29a567344dde2f13934db8d8ae?"
+                class="aspect-square w-[58px]"
+              />
+              <div class="mt-7 text-2xl">GIS</div>
+              <div class="self-stretch mt-5 text-lg text-center">
+                Divisi GIS (Geographic Information System) berfokus pada
+                pengembangan teknologi aplikasi mobile dan UI/UX, 3d modelling
+                dan augmented reality (AR) dan remote sensing. Selain itu divisi
+                GIS juga rutin melaksanakan pengabdian masyarakat setiap
+                tahunnya.
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex gap-5 justify-between mt-10 mb-1 max-w-full text-2xl text-white whitespace-nowrap w-[637px] max-md:flex-wrap">
-          <div className="flex gap-4">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/51948fbe1d5b234da6876a6b688b4aff2659629c6531bd56e23c0716446b7c2a?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto my-auto">08xxxxxxxxx</div>
-          </div>
-          <div className="flex gap-4">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/739a4366a1116e7b621ee35ca2a91db2c0694471174a7eab5ee33ee920a63ea6?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto my-auto">@sok873r</div>
+        <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+          <div
+            class="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10"
+          >
+            <div
+              class="flex flex-col items-center px-3 pt-5 pb-8 bg-white rounded-3xl"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d653209685107e81d753ef7cb75482f295e1937b2640c2102604eba9723a48fa?"
+                class="aspect-square w-[58px]"
+              />
+              <div class="mt-7 text-2xl">BIG DATA</div>
+              <div class="self-stretch mt-4 text-lg text-center">
+                Divisi Big Data berfokus pada bidang data analyst, data
+                engineer, data scientist dan pengembangan machine learning.
+                Kegiatan yang dilakukan oleh divisi Big Data antara lain meriset
+                serta menganalisis berbagai data dan mengikuti berbagai
+                perlombaan seperti Hackathon.
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col items-start px-20 pt-20 pb-12 w-full text-4xl font-semibold text-white bg-blue-900 max-md:px-5 max-md:max-w-full">
-        <div className="mt-8 text-6xl font-extrabold max-md:max-w-full max-md:text-4xl">
-          About Me
-        </div>
-        <div className="mt-10 font-bold max-md:max-w-full">Muhammad Afwan</div>
-        <div className="mt-9 max-md:max-w-full">
-          Mahasiswa semester 4, jurusan S1 Teknik Telekomunikasi di Telkom
-          University. Memiliki ketertarikan di bidang pemrograman dan
-          multimedia. Berpengalaman sebagai asisten pratikum lab dasar komputer.
-        </div>
-        <div className="flex gap-5 justify-between mt-16 max-w-full text-2xl whitespace-nowrap w-[828px] max-md:flex-wrap max-md:mt-10">
-          <div className="flex gap-4">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/e7dc39cee0d663e1a3b2711b41ea8684b2a5b282dfc28e6b83394c9e4bc2362a?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto my-auto">@af_1ss</div>
-          </div>
-          <div className="flex gap-4">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/3bfba66ac7e5a4a340e752dd75f6652cd5f55d05d3c78baf5428360efbbf7482?"
-              className="shrink-0 aspect-square w-[70px]"
-            />
-            <div className="flex-auto my-auto">@ice17845</div>
-          </div>
-          <div className="flex gap-4">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/619709c61cf7f65159a4b568b65a623197cb86a6d3766839460443dac27366dd?"
-              className="shrink-0 aspect-[1.03] fill-stone-50 w-[70px]"
-            />
-            <div className="flex-auto my-auto">Star17845</div>
+        <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+          <div
+            class="flex flex-col grow justify-center p-1.5 w-full font-semibold text-black rounded-3xl max-md:mt-10"
+          >
+            <div class="flex flex-col px-2.5 pt-5 pb-16 bg-white rounded-3xl">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4307462c00fd5753117ca65480b6e66be000e397691082c9170c074561eabc3?"
+                class="self-center aspect-square fill-black w-[58px]"
+              />
+              <div class="mt-7 text-2xl">CYBER SECURITY</div>
+              <div class="mt-5 text-lg text-center">
+                Divisi Cyber Security berfokus pada pengembangan keamanan siber
+                dan Dev ops. Divisi ini terbagi menjadi 3 tim yaitu: Blue Team,
+                Red Team dan Cloud Team. Divisi ini juga mengikuti berbagai
+                perlombaan seperti CTF dan GEMASTIK
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  );
-}
-
+  </div>
+  <div
+    class="flex flex-col px-16 py-20 w-full font-semibold bg-white max-md:px-5 max-md:max-w-full"
+  >
+    <div
+      class="mt-14 text-6xl font-extrabold bg-clip-text max-md:mt-10 max-md:max-w-full max-md:text-4xl"
+    >
+      For More Informations
+    </div>
+    <div
+      class="flex gap-5 justify-between items-start mt-48 text-xl text-white max-md:flex-wrap max-md:mt-10"
+    >
+      <div class="flex gap-4 mt-1.5">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/0bf22a50c1394d1aac65bd032c5e79ac154d53ce63ecd51077311878e5ff8b12?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto">
+          Jl. Telekomunikasi Jl. Terusan Buah Batu, Bandung, Jawa Barat 40257,
+          ID
+        </div>
+      </div>
+      <div class="flex gap-4 text-2xl whitespace-nowrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/5c70216f318082033c49072877b7a1788ba84b31d0382a2d9d04e5e9c2fa8f87?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto my-auto">@mbclab</div>
+      </div>
+      <div class="flex gap-4 max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/76afb6897d0870e04ddc57b242ea0110bc3e39878b07093d81ba33a2f83cd6a9?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto my-auto">
+          Multimedia Application, Big Data and Cybersecurity Laboratory
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex gap-5 justify-between mt-10 mb-1 max-w-full text-2xl text-white whitespace-nowrap w-[637px] max-md:flex-wrap"
+    >
+      <div class="flex gap-4">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/51948fbe1d5b234da6876a6b688b4aff2659629c6531bd56e23c0716446b7c2a?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto my-auto">08xxxxxxxxx</div>
+      </div>
+      <div class="flex gap-4">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/739a4366a1116e7b621ee35ca2a91db2c0694471174a7eab5ee33ee920a63ea6?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto my-auto">@sok873r</div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="flex flex-col items-start px-20 pt-20 pb-12 w-full text-4xl font-semibold text-white bg-blue-900 max-md:px-5 max-md:max-w-full"
+  >
+    <div class="mt-8 text-6xl font-extrabold max-md:max-w-full max-md:text-4xl">
+      About Me
+    </div>
+    <div class="mt-10 font-bold max-md:max-w-full">Muhammad Afwan</div>
+    <div class="mt-9 max-md:max-w-full">
+      Mahasiswa semester 4, jurusan S1 Teknik Telekomunikasi di Telkom
+      University. Memiliki ketertarikan di bidang pemrograman dan multimedia.
+      Berpengalaman sebagai asisten pratikum lab dasar komputer.
+    </div>
+    <div
+      class="flex gap-5 justify-between mt-16 max-w-full text-2xl whitespace-nowrap w-[828px] max-md:flex-wrap max-md:mt-10"
+    >
+      <div class="flex gap-4">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e7dc39cee0d663e1a3b2711b41ea8684b2a5b282dfc28e6b83394c9e4bc2362a?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto my-auto">@af_1ss</div>
+      </div>
+      <div class="flex gap-4">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/3bfba66ac7e5a4a340e752dd75f6652cd5f55d05d3c78baf5428360efbbf7482?"
+          class="shrink-0 aspect-square w-[70px]"
+        />
+        <div class="flex-auto my-auto">@ice17845</div>
+      </div>
+      <div class="flex gap-4">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/619709c61cf7f65159a4b568b65a623197cb86a6d3766839460443dac27366dd?"
+          class="shrink-0 aspect-[1.03] fill-stone-50 w-[70px]"
+        />
+        <div class="flex-auto my-auto">Star17845</div>
+      </div>
+    </div>
+  </div>
+</div>
